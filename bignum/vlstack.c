@@ -77,8 +77,8 @@ char st_isemptyb(STACK *st)
 
 char st_isempty(STACK *st)
 {
-//    if(st == NULL)
-//        return -1;
+    if(st == NULL)
+        return -1;
 
     if(st->tail == NULL)
         return 1;
